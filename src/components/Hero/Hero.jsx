@@ -46,7 +46,7 @@ const Hero = () => {
                             <p className="text-white text-2xl"><MdOutlineLightbulb /></p>
                             <p className="text-white text-2xl"><GoUnmute /></p>
                         </div>
-                        <p className="py-28     text-white text-4xl text-center  flex items-center justify-center h-full">
+                        <p className="py-28 text-white text-4xl text-center  flex items-center justify-center h-full">
                             5x + 12
                         </p>
                     </div>
