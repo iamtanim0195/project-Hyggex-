@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flipped .card-body {
+    transform: rotateY(180deg);
+  }
+  
+  .flipped .front {
+    display: none;
+  }
+  
+  .flipped .back {
+    display: block;
+  }
+  
+  /* Add perspective for better 3D effect */
+  .card {
+    perspective: 1000px;
+  }
+  
+  .card-body {
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

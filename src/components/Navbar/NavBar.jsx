@@ -12,7 +12,7 @@ const NavBar = () => {
                 <p className="p-3">Flashcard</p>
                 <p className="p-3">Contact</p>
                 <p className="p-3">FAQ</p>
-                <p className="bg-gradient-to-b from-[#06286E] to-[#164EC0] text-white p-3 px-7 rounded-full ">Login</p>
+                <p className="bg-gradient-to-b from-primaryColor to-secondaryColor text-white p-3 px-7 rounded-full ">Login</p>
             </div>
         </div>
     )
